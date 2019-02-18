@@ -1,0 +1,26 @@
+\begin{savequote}[45mm]
+\ascii{Any fool can write code that a computer can understand. Good programmers write code that humans can understand.}
+\qauthor{\ascii{- Martin Flower}}
+\end{savequote}
+
+\chapter{魔术方法} 
+\label{ch:magic-method}
+
+\section{迭代器}
+
+\begin{content}
+
+\subsection{迭代协议}
+
+\begin{nodiff}{迭代器}
+ \begin{python}
+import tensorflow as tf
+
+hello = tf.contant("hello, world")
+
+with tf.Session() as sess:
+  sess.run(hello)
+ \end{python}
+\end{nodiff}
+
+\end{content}
